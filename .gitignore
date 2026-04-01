@@ -1,0 +1,35 @@
+# Dependency directories
+node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+**/dist/
+build/
+**/build/
+
+# Logs and debug files
+*.log
+npm-debug.log*
+yarn-debug.log*
+tsc_errors.txt
+**/tsc_errors.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Antigravity / Brain artifacts (optional but good practice)
+.gemini/
+brain/
